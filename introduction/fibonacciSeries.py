@@ -1,0 +1,16 @@
+#! /usr/bin/env python2.7
+# -*- coding:utf8 -*-
+
+# Fibonacci series:
+# the sum of two elements defines the next
+a, b = 0, 1
+while b < 10:
+    print b
+    a, b = b, a+b
+
+# a trailing comma avoids the newline after the output
+a, b = 0, 1
+while b < 10:
+    print b,
+    a, b = b, a+b
+
