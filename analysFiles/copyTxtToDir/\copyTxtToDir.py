@@ -56,7 +56,7 @@ def main():
     copyTxtToDir(inputDir, outputDir)
     
     now_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    print("main start time is:", now_time)
+    print("main end time is:", now_time)
 
 
 
